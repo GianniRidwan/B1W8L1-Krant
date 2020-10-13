@@ -1,6 +1,48 @@
 .grid-container {
 	display: grid;
-	grid-template-columns: 227px 227px 227px 300px;
+	grid-template-columns: auto 227px 227px 227px 300px auto;
 	padding: 10px;
-	grid-column-gap: 50px;
+	grid-column-gap: 10px;
+}
+
+.menu {
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.banner {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row: 2;
+}
+
+.commando {
+	grid-row: 3;
+	grid-column: 2;
+}
+
+.verstappen {
+	grid-row: 3;
+	grid-column: 4;
+}
+
+.net {
+	grid-row-start: 3;
+	grid-row-end: 5;
+	grid-column: 5;
+}
+
+.griep {
+	grid-row: 4;
+	grid-column: 2;
+}
+
+.zon {
+	grid-row: 4;
+	grid-column: 3;
+}
+
+.schandaal {
+	grid-row: 4;
+	grid-column: 4;
 }
